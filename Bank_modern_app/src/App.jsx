@@ -6,11 +6,11 @@ import {Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients,
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <header className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
-      </div>
+      </header>
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
